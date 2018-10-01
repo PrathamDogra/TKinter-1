@@ -16,7 +16,7 @@ class App:
         master.bind("<Button-1>",do_event)
         frame.pack()
 
-        self.hello_b = Button(master,text="Quit",command=sys.exit)
+        self.hello_b = Button(master,text="Quit",fg="blue",bg="red",command=sys.exit)
         self.hello_b.bind("<Enter>",jump)
         self.hello_b.pack()
 
